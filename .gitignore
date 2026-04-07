@@ -1,0 +1,15 @@
+# Node
+node_modules/
+.env
+
+# React Native
+mobile/node_modules/
+mobile/android/build/
+mobile/ios/build/
+
+# Logs
+logs
+*.log
+
+# OS
+.DS_Store   
