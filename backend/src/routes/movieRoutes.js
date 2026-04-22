@@ -22,9 +22,9 @@ router.get("/genre/:genreId", getMoviesByGenre);
 router.get("/search", searchMovies);
 router.get("/search/suggestions", getSearchSuggestions);
 
-// 🔥 Search & Details
-router.get("/search", searchMovies);
-router.get("/:id", getMovieDetails);
-router.get("/:id/credits", getMovieCredits);
+  // 🔥 Search & Details
+  router.get("/search", searchMovies);
+  router.get("/:id", getMovieDetails);
+  router.get("/:id/credits", getMovieCredits);
 
 module.exports = router;

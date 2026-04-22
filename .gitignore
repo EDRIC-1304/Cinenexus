@@ -2,10 +2,6 @@
 node_modules/
 .env
 
-# React Native
-mobile/node_modules/
-mobile/android/build/
-mobile/ios/build/
 
 # Logs
 logs
@@ -16,3 +12,11 @@ logs
 
 
 mobile/ios/
+
+
+mobile-expo/node_modules
+mobile-expo/.expo
+mobile-expo/android
+mobile-expo/ios
+mobile-expo/*.log
+mobile-expo/.env
